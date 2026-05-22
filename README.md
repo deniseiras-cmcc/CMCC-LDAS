@@ -1,9 +1,16 @@
-# Land System
-Repository for running the Land spreads d4o system in Cassandra Supercomputer (initially) . 
+# CMCC-LDAS: A 21-Year Global Multivariate Ensemble Land Data Assimilation Reanalysis (2002–2022)
+Luis Gustavo Gonçalves de Gonçalves, Alvaro Vasconcellos Araujo de Avila, Carla Cardinali, Giovanni Conti, Marcelo Guatura, Daniele Peano, Brett Raczka, Marianna Benassi, Denis Eiras, Silvio Gualdi
 
-Includes and manages all repos necessary for running: spreads, CMCC-CM and DART, that was not being managed in repositories in JUNO (Check the Repository Structure Section)
+## Key Points
+* CMCC-LDAS assimilates soil moisture, snow cover fraction, and leaf area index globally over 2002–2022.
 
-The idea is to maintain all this repositories in this one. If some change, applied in here, needed to be applied in the original repositories, the change must be applied mannually.
+* The multivariate ensemble cycle remains stable over two decades without prior climatological bias correction.
+
+* Direct soil-moisture constraints give the clearest gains, while GPP and SWE responses depend on model coupling.
+
+## Plain Language Summary
+While land surfaces continuously exchange water, energy, and carbon with the atmosphere, observations of soil moisture, snow, and vegetation remain incomplete in space and time. Models can fill these gaps but carry their own errors. This study presents CMCC-LDAS, a global land reanalysis covering 2002–2022. The system combines a land model with satellite observations of surface soil moisture, snow cover, and leaf area to produce a consistent estimate of land surface conditions over two decades. We evaluate the reanalysis using independent observations not used by the system, including soil moisture measurements, carbon-flux data, gridded vegetation productivity estimates, and snow water equivalent data. The results show that the system is stable over the full period and improves several aspects of soil moisture, vegetation productivity, and snow evolution. The clearest improvements occur when the assimilated observation is closely related to the evaluated variable, as for soil moisture. For snow mass and carbon fluxes, the response is more indirect and depends more strongly on how the land model connects different processes. Consequently, CMCC-LDAS serves both as a land reanalysis and as a diagnostic tool to identify where better observations or model improvements are needed.
+
 
 
 ## System instalation (Spreads - d4o)
